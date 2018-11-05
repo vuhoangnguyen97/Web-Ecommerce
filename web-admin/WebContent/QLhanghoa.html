@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quản Lý Sản Phẩm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="QLHH.css" />
+    <script src="QLHH.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+            <div id="logo">
+                <h3>Quản Lý Sản Phẩm</h3>
+            </div>
+
+            <div id="nameNV"> 
+                <p>Xin chào </p>
+                <!--Tên nhân viên lấy từ CSDL-->
+                <p>Admin</p>
+                <div class="dangxuat">
+                    <a href="#" class="logout">Đăng xuất</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="trangkhac">
+        <div class="container">
+            
+            <div class="dieuhuong">
+                <a href="QLThanhVien.html" target="blank">
+                    <input type="button" class="QLTV" value="Quản Lý Thành Viên">
+                </a>
+            </div>
+
+            <div class="dieuhuong">
+                <a href="QLDH.html" target="blank">
+                    <input type="button" class="QLDH" value="Quản Lý Đơn Hàng">
+                </a>
+            </div>
+
+            <div class="search">
+                <form action="#" method="POST" class="fSearch">
+                    <input type="search" placeholder="Tìm kiếm sản phẩm" id="txtSearch" size="30">
+                    <input type="button" value="" id="btSearch">
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    
+    <div class="main">
+        <div class="container">
+            <div class="table">
+                <p class="title">DANH SÁCH SẢN PHẨM</p>
+                <table id="sp">
+                    <thead>
+                        <tr>
+                            <th>Mã sản phẩm</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Hãng sản xuất</th>
+                            <th>Giả sản phẩm</th>
+                            <th>Tình trạng</th>
+                            <th>Camera trước</th>
+                            <th>Camera sau</th>
+                            <th>Dung lượng pin</th>
+                            <th>Màu sắc</th>
+                            <th>Bảo mật</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="even">
+                            <td>1</td>
+                            <td><a href="facebook.com" class="ctsp">iPhone 7 PLus</a></td>
+                            <td>Apple</td>
+                            <td>22,490,000</td>
+                            <td>Còn hàng</td>
+                            <td>7 MP</td>
+                            <td>12 MP Camera kép</td>
+                            <td>2900 mAh</td>
+                            <td>Đen, Đỏ, Vàng</td>
+                            <td>Vân tay</td>
+                            <td class="SX">
+                                <a href="ChiTietSanPham.html" target="_blank">Sửa</a>
+                            </td>
+                            <td class="SX">
+                                <a href="#">Xóa</a>
+                            </td>
+                        </tr>
+
+                        <tr class="odd">
+                            <td>2</td>
+                            <td>iPhone 6</td>
+                            <td>Apple</td>
+                            <td>7,690,000</td>
+                            <td>Còn hàng</td>
+                            <td>7 MP</td>
+                            <td>12 MP </td>
+                            <td>2500 mAh</td>
+                            <td>Đen, Vàng</td>
+                            <td>Vân tay</td>
+                            <td class="SX">
+                                <a href="#">Sửa</a>
+                            </td>
+                            <td class="SX">
+                                <a href="#">Xóa</a>
+                            </td>
+                        </tr>
+
+                        <tr class="even">
+                            <td>3</td>
+                            <td>Nokia 216</td>
+                            <td>Nokia</td>
+                            <td>760,000</td>
+                            <td>Còn hàng</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="SX">
+                                <a href="#">Sửa</a>
+                            </td>
+                            <td class="SX">
+                                <a href="#">Xóa</a> 
+                            </td>
+                        </tr>
+
+                        <tr class="odd">
+                            <td>3</td>
+                            <td>Nokia 150</td>
+                            <td>Nokia</td>
+                            <td>650,000</td>
+                            <td>Hết hàng</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="SX">
+                                <a href="#">Sửa</a>
+                            </td>
+                            <td class="SX">
+                                <a href="#">Xóa</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination-bar">
+                <div class="container">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bt">
+                <a href="ThemSP.html" target="_blank">
+                    <input type="submit" value="Thêm sản phẩm" id="btthem" class="btThem">
+                </a>
+                <!--<input type="submit" value="Sửa sản phẩm" id="btxoa" class="btReset">-->
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <div class="formnhap">
+        <div class="container">
+            <div id="myModal" class="modal">
+                <!--Nội dung form-->
+                <div class="modal-content">
+                <form action="#" method="POST" id="nhapsp">
+                <span class="close">&times;</span>
+                <p>Nhập sản phẩm</p>
+                <table id="themsp">
+
+                    <tr>
+                        <th>Mã sản phẩm:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Tên sản phẩm:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Hãng sản xuất:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Tình trạng:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Camera trước:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Camera sau:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Dung lượng pin:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Màu sắc:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Bảo mật:</th>
+                        <td>
+                            <input type="text" class="txtsp">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <div class="bt" id="btf1">
+                                <input type="submit" value="Gửi" id="btguif1" class="btReset">
+                                <input type="submit" value="Nhập lại" id="btresetf1" class="btReset">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table> 
+                
+                </form>
+                </div>
+            </div>
+
+            <div id="myModal1" class="modal">
+                    <!--Nội dung form-->
+                    <div class="modal-content">
+                    <form action="#" method="POST" id="nhapsp1">
+                    <span class="close1">&times;</span>
+                    <p>Nhập nội dung cần sửa</p>
+                    <table id="suasp">
+
+            <tr>
+                <th>Mã sản phẩm:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Tên sản phẩm:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Hãng sản xuất:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Tình trạng:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Camera trước:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Camera sau:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Dung lượng pin:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Màu sắc:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Bảo mật:</th>
+                <td>
+                    <input type="text" class="txtsp">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <div class="bt" id="btf2">
+                        <input type="submit" value="Gửi" id="btguif2" class="btReset">
+                        <input type="submit" value="Nhập lại" id="btresetf2" class="btReset">
+                    </div>
+                </td>
+            </tr>
+
+                    </table>>  
+                    </form>
+                    </div>
+            </div>
+
+            
+
+            
+        </div>
+
+    </div>
+
+    <!--<script>
+    var modal = document.getElementById('myModal');
+    var modal1 = document.getElementById('myModal1');
+    var bt = document.getElementById("btthem");
+    var btxoa = document.getElementById("btxoa");
+    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close1")[0];
+
+
+    bt.onclick = function(){
+        modal.style.display = "block";
+    }
+
+    span.onclick = function(){
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(){
+        if(event.target == modal){
+            modal.style.display = "none";
+        }
+        else if(event.target == modal1){
+            modal1.style.display = "none";
+        }
+    }
+
+    btxoa.onclick = function(){
+        modal1.style.display = "block";
+    }
+
+    span1.onclick = function(){
+        modal1.style.display = "none";
+    }
+
+
+
+
+    
+    </script>-->
+
+</body>
+</html>

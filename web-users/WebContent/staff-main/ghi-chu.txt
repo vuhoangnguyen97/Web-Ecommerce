@@ -1,0 +1,2 @@
+Trang chủ nhân viên tham khảo từ trang: templatemo
+Để lấy template mẫu để làm giao diện và thêm vào code xử lý backend của nhóm lên

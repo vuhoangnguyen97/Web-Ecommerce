@@ -1,0 +1,42 @@
+.container{
+    margin: 0 auto;
+}
+.table{
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: none;
+}
+#select-left {
+    padding: 5px 50px 5px 5px;
+    float: right;
+}
+#select-right {
+    padding: 5px 50px 5px 5px;
+    float: left;
+}
+.btn{
+    text-align: center;
+    padding: 5px 20px;
+    margin-top: -5px;
+}
+#btnSS {
+    text-align: center; 
+    vertical-align: middle;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}

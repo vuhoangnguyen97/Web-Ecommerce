@@ -1,0 +1,30 @@
+Webserver Stress Tool - Logfile for User #86
+23-Oct-17 1:52:13 PM: User #86 Click #1: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:16 PM: User #86 Click #1: HTTP request & TCP/IP socket creation: 5 ms
+23-Oct-17 1:52:16 PM: User #86 Click #1: ** Click #1 started, used URL #2 (Tim theo hang), from IP=0.0.0.0
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Initialized (0 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: DNS Lookup begin (0 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: DNS Lookup done (1 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Connected (2 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Waiting for header (2 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Receiving Header (95 ms) (=Time to First Byte)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Waiting for body (95 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: Request 1 HTTP State: Done (97 ms)
+23-Oct-17 1:52:16 PM: User #86 Click #1: CLICK-Request 1: Time=100 ms, TFB=95 ms, Bytes=26,641, HTTP-StatusCode=200 (OK)
+23-Oct-17 1:52:16 PM: User #86 Click #1: !Success! All requests of click done (101 ms)  
+23-Oct-17 1:52:16 PM: User #86 Click #2: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:21 PM: User #86 Click #2: HTTP request & TCP/IP socket creation: 4 ms
+23-Oct-17 1:52:21 PM: User #86 Click #2: ** Click #2 started, used URL #2 (Tim theo hang), from IP=0.0.0.0
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Initialized (0 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: DNS Lookup begin (0 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: DNS Lookup done (1 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Connected (2 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Waiting for header (2 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Receiving Header (146 ms) (=Time to First Byte)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Waiting for body (147 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: Request 2 HTTP State: Done (149 ms)
+23-Oct-17 1:52:21 PM: User #86 Click #2: CLICK-Request 2: Time=149 ms, TFB=146 ms, Bytes=26,641, HTTP-StatusCode=200 (OK)
+23-Oct-17 1:52:21 PM: User #86 Click #2: !Success! All requests of click done (149 ms)  
+23-Oct-17 1:52:21 PM: User #86 Click #3: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:27 PM: Writing User Log
+23-Oct-17 1:52:28 PM: User passed away

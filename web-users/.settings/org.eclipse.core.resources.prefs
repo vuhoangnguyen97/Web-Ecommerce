@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/BusinessLogics/Database.java=UTF-8
+encoding//src/BusinessLogics/gioHangBL.java=UTF-8
+encoding//src/BusinessLogics/resetPasswordDAO.java=UTF-8
+encoding//src/BusinessLogics/sanPhamBL.java=UTF-8
+encoding//src/BusinessLogics/userBL.java=UTF-8
+encoding//src/Controller/PayPalController.java=UTF-8
+encoding//src/Controller/phuongThucThanhToan.java=UTF-8
+encoding//src/Controller/quenMatKhauServlet.java=UTF-8
+encoding//src/Controller/xacNhanDonHang.java=UTF-8
+encoding//src/Encrypt/encrypt.java=UTF-8
+encoding//src/Payment/onePayPayment.java=UTF-8
+encoding//src/Test/tesst.java=UTF-8
+encoding//src/Test/testCSDL.java=UTF-8

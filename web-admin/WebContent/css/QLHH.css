@@ -1,0 +1,474 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.top{
+    height: 130px;
+    width: 100%;
+    background-color: #00cec9;
+}
+
+#logo{
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+#logo h3{
+    color: white;
+    font-size: 40px;
+}
+
+#nameNV{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+    font-weight: bold;
+}
+ #nameNV p{
+     float: left;
+     padding-right: 15px;
+     color: white;
+     
+ }
+
+.dangxuat{
+    margin-top: 15px;
+    float: left;
+}
+
+ .logout{
+     background: url(images/logout.png) no-repeat;
+     text-decoration: none;
+     color: white;
+     padding-left: 20px;
+ }
+
+ .logout a:hover,  .logout a:visited{
+     color: white;
+ }
+
+ .trangkhac{
+     height: 85px;
+ }
+
+ .dieuhuong{
+     float: right;
+ }
+
+ .QLTV{
+     border: none;
+     padding: 10px;
+     background-color: #00cec9;
+     color: white;
+     border-radius: 7px;
+     font-size: 17px;
+     font-weight: bold;
+     margin-right: 12px;
+     float: left;
+     margin-top: 4px;
+ }
+
+ .QLDH{
+    border: none;
+    padding: 10px;
+    background-color: #00cec9;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 12px;
+    float: left;
+   
+}
+
+.QLNV{
+    border: none;
+    padding: 10px;
+    background-color: #00cec9;
+    color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 12px;
+    float: left;
+   
+}
+
+#sp{
+    border-collapse: collapse;
+    text-align: left;
+    border-spacing: 4px;
+}
+
+#sp thead tr th{
+    padding: 8px 20px 8px 5px;
+}
+
+.even{
+    background-color: #d0d0d0;
+
+}
+
+.odd{
+    background-color: white;
+}
+
+.SX{
+    padding: 5px 20px;
+}
+
+.SX a{
+    text-decoration: none;
+    color: black;
+}
+
+.SX a:hover, .SX a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#themsp{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #00cec9;
+    color: white;
+    border-radius: 7px;
+}
+
+#themsp tr{
+    text-align: left;
+    
+    
+}
+
+#themsp tr th{
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+
+
+#suasp{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #00cec9;
+    color: white;
+    border-radius: 7px;
+}
+
+#suasp tr{
+    text-align: left;
+    
+    
+}
+
+#suasp tr th{
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+
+#nhapsp1 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.txtsp{
+    padding: 10px 200px 10px 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btThem{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #00cec9;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-left: 11%;
+}
+
+.btReset{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #E94335;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.bt{
+    text-align: center;
+    margin-left: 410px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#nhapsp p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    margin-bottom: 25%;
+    border-radius: 7px;
+}
+
+
+.modal-content{
+    background-color: #00cec9;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.close{
+    color: #E94335;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.close1{
+    color: #E94335;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover, .close1:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btf1{
+    padding-bottom: 25%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 33%;
+}
+#btf2{
+    padding-bottom: 25%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 33%;
+}
+
+.ctsp {
+	text-decoration: none;
+	color: black;
+}
+
+.pagination{
+    margin: 20px;
+    text-align: center;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 8px 16px;
+}
+
+.pagination a:hover{
+    background-color: #DDDDDD;
+    transition: background-color 0.25s;
+}
+
+.pagination a:active {
+    background-color: #00cec9;
+    color: white;
+}
+
+.search{
+    float: left;
+}
+
+#btSearch{
+	background: url(images/search.png) no-repeat;
+	padding-right: 14px;
+	border: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#txtSearch{
+	padding: 15px ;
+	padding-right: 20px;
+	padding-left: 10px;
+	border: 0;
+	
+}
+
+#hang{
+    padding: 5px 65px 5px 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+.fMess{
+    float: right;
+    
+}
+
+#fMess{
+    display: none;
+}
+
+
+#live-chat header {
+    background: #293239;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 24px;
+    width: 335px;
+    position: relative
+    
+}
+
+.clearfix a { 
+    text-decoration: none;
+    color: white;
+    background-color: #00cec9;
+    border-radius: 100%;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    top: 12px;
+    right: 35px;
+}
+
+h4{
+    margin: 0px;
+}
+
+.chat{
+    height: auto;
+    border: solid 1px #d0d0d0;
+}
+
+.txt{
+    padding: 5px 55px 5px 5px;
+}
+
+.dong{
+    margin-bottom: 10px;
+}
+
+.btGui{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #00cec9;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+.btXoa{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #E94335;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    height: 600px;
+    margin-top: 20px;
+}
+
+#btGopY{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #00cec9;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+}
+
+.searchCC{
+    display: none;
+    padding-top: 30px;
+}
+
+.brand{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.price{
+    padding-top: 60px;
+    margin-left: 10px;
+}

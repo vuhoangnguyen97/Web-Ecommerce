@@ -1,0 +1,234 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.top{
+    height: 130px;
+    width: 100%;
+    background-color: #4267B2;
+}
+
+#logo{
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+#logo h3{
+    color: white;
+    font-size: 40px;
+}
+
+#nameNV{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+    font-weight: bold;
+}
+ #nameNV p{
+     float: left;
+     padding-right: 15px;
+     color: white;
+     
+ }
+
+.dangxuat{
+    margin-top: 15px;
+    float: left;
+}
+
+ .logout{
+     background: url(images/logout.png) no-repeat;
+     text-decoration: none;
+     color: white;
+     padding-left: 20px;
+ }
+
+ .logout a:hover,  .logout a:visited{
+     color: white;
+ }
+
+ .trangkhac{
+     height: 85px;
+ }
+
+ .dieuhuong{
+     float: right;
+ }
+
+ .hinhsp{
+     width: auto;
+     height: auto;
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .kichthuoc{
+     width: 400px;
+     height: 400px;
+     margin: 0;
+     padding: 0;
+ }
+
+ #themsp{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #4267B2;
+    color: white;
+    border-radius: 7px;
+}
+
+#themsp tr{
+    text-align: left;
+    
+    
+}
+
+#themsp tr th{
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.tensp{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table{
+    margin: 0 auto;
+}
+
+.table tr th{
+    padding-bottom: 20px;
+}
+
+.table tr td{
+    padding-bottom: 20px;
+}
+
+.txtsp{
+    padding: 10px 50px 10px 8px;
+    
+}
+
+#btfix{
+    float: left;
+    border: none;
+    border-radius: 7px;
+    background-color: #4267B2;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#btsave{
+    float: left;
+    border: none;
+    border-radius: 7px;
+    background-color: #E94335;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    display: none;
+}
+
+#fix{
+    margin-left: 110px;
+}
+
+#alert{
+    text-align: center;
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+#aler2{
+    text-align: center;
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+.btask{
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #EA4335;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    margin-bottom: 25%;
+    border-radius: 7px;
+}
+
+
+.modal-content{
+    background-color: #00cec9;
+    margin: auto;
+    padding: 20px;
+    width: 15%;
+    border-radius: 7px;
+}
+
+.close{
+    color: #E94335;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.close1{
+    color: #E94335;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover, .close1:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fchucvu{
+    padding: 10px 59.5% 10px 10px;
+}

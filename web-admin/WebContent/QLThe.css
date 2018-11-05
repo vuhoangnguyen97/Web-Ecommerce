@@ -1,0 +1,244 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #4267B2;
+}
+
+.container-fluid {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-nav>li>a {
+    color: white;
+    background-color: #4267B2;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.navbar-nav>li>a:hover {
+    background: #ff7979;
+    color: white;
+}
+
+.dropdown {
+    color: white;
+    background-color: #4267B2;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.dropdown:hover {
+    background: #ff7979;
+    color: white;
+}
+
+.navbar-toggle .icon-bar {
+    background: white;
+    width: 25px;
+    height: 4px;
+    border-radius: 1px;
+    margin-top: -5px;
+}
+
+.glyphicon-cog:before {
+    margin-right: 8px;
+}
+
+.glyphicon-search {
+    margin-right: 8px;
+}
+
+.btn {
+    background-color: #4267B2;
+}
+
+.btn:hover {
+    color: white;
+    background: #ff7979;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background: white;
+    border: none;
+}
+
+.dropdown-menu>li>a {
+    color: #4267B2;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #4267B2;
+}
+
+.btn {
+    background-color: #4267B2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.btn:active {
+    color: white;
+}
+
+#admin ul li {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    height: 450px
+}
+
+.table thead th {
+    font-size: 12px;
+}
+
+.table tbody td {
+    font-size: 12px;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.addToggle {
+    background-color: #4267B2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px;
+    margin-top: -52px;
+    border: none;
+    border-radius: 7px;
+}
+
+#search1 {
+    padding: 5px;
+    border: none;
+}
+
+.bt {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.modal{
+    position: unset;
+    margin-top: 20px;
+    padding-bottom: 140px;
+}
+
+.table-responsive{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.btf {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bold;
+    background: #4267B2;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#btReset{
+    background: #ff7979;
+}
+
+#btThem{
+    margin-right: -60px;
+}
+
+.txtadd{
+    padding: 8px;
+    padding-right: 55px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    height: 100%;
+    background-color: white;
+}
+
+.well>.dropdown-menu {
+    position: relative;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #4267B2;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu>li>a {
+        line-height: 20px;
+        color: white;
+    }
+}

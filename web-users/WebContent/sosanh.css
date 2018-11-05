@@ -1,0 +1,7 @@
+.custom-color-white-bold{
+    color: white;
+    font-weight: bold;
+}
+.custom-border tbody tr td{
+    border: none;
+}

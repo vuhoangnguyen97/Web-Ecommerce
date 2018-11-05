@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>quanlyadmin</display-name>
+  <welcome-file-list>
+    <welcome-file>trang-nhan-vien.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>trang-nhan-vien.jsp</servlet-name>
+    <jsp-file>/trang-nhan-vien.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trang-nhan-vien.jsp</servlet-name>
+    <url-pattern>/trang-nhan-vien</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>quan-ly-nhan-vien.jsp</servlet-name>
+    <jsp-file>/quan-ly-nhan-vien.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>quan-ly-nhan-vien.jsp</servlet-name>
+    <url-pattern>/quan-ly-nhan-vien</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>quan-ly-san-pham.jsp</servlet-name>
+    <jsp-file>/quan-ly-san-pham.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>quan-ly-san-pham.jsp</servlet-name>
+    <url-pattern>/quan-ly-san-pham</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>quan-ly-thanh-vien.jsp</servlet-name>
+    <jsp-file>/quan-ly-thanh-vien.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>quan-ly-thanh-vien.jsp</servlet-name>
+    <url-pattern>/quan-ly-thanh-vien</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>quan-ly-don-hang.jsp</servlet-name>
+    <jsp-file>/quan-ly-don-hang.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>quan-ly-don-hang.jsp</servlet-name>
+    <url-pattern>/quan-ly-don-hang</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>cong-viec.jsp</servlet-name>
+    <jsp-file>/cong-viec.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cong-viec.jsp</servlet-name>
+    <url-pattern>/cong-viec</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>log-in-staff.jsp</servlet-name>
+    <jsp-file>/log-in-staff.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>log-in-staff.jsp</servlet-name>
+    <url-pattern>/log-in-staff</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>them-san-pham.jsp</servlet-name>
+    <jsp-file>/them-san-pham.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>them-san-pham.jsp</servlet-name>
+    <url-pattern>/them-san-pham</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>them-nhan-vien.jsp</servlet-name>
+    <jsp-file>/them-nhan-vien.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>them-nhan-vien.jsp</servlet-name>
+    <url-pattern>/them-nhan-vien</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>thong-ke.jsp</servlet-name>
+    <jsp-file>/thong-ke.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>thong-ke.jsp</servlet-name>
+    <url-pattern>/thong-ke</url-pattern>
+  </servlet-mapping>
+  
+ 	
+</web-app>

@@ -1,0 +1,47 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border: none;
+}
+#thanhtoan{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 7px;
+    padding: 15px 35px;
+    font-weight: bold;
+}
+.txtThanhToan{
+    color: black;
+    font-weight: normal;
+}
+
+
+.infosp{
+    margin-top: 10px;
+    color: white;
+}
+#tensp{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.chitiet tr td{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type="text"]{
+    padding-right: 110px;
+}
+
+.txtNhap{
+    color: black;
+}

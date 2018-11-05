@@ -1,0 +1,292 @@
+23-Oct-17 1:52:12 PM: ** Test Logfile by Webserver Stress Tool 8.0.0.1010 Enterprise Edition (Freeware) **
+23-Oct-17 1:52:12 PM: © 1998-2012 Paessler AG, http://www.paessler.com
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: Test run on 23-Oct-17 1:52:12 PM
+23-Oct-17 1:52:12 PM: 
+23-Oct-17 1:52:12 PM: ** Project and Scenario Comments, Operator **
+23-Oct-17 1:52:12 PM: 
+23-Oct-17 1:52:12 PM: ** Test Setup **
+23-Oct-17 1:52:12 PM: Test Type: CLICKS (run test until 10 clicks per user)
+23-Oct-17 1:52:12 PM: User Simulation: 100 simultaneous users - Click times "per URL"
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: Logging Period: Log every 10 seconds
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: ** URLs **
+23-Oct-17 1:52:12 PM: URL Sequencing: Users always click the same URL (to spreads load evenly on all URLs, set number of users to a multiple of the number of URLs!)
+23-Oct-17 1:52:12 PM: 4 URLs
+23-Oct-17 1:52:12 PM:   URL#1: GET http://localhost:8080/web-mobile/trang-chu.jsp POSTDATA= Click Delay=5
+23-Oct-17 1:52:12 PM:   URL#2: GET http://localhost:8080/web-mobile/timTheoHangSanPham?hang=Apple POSTDATA= Click Delay=5
+23-Oct-17 1:52:12 PM:   URL#3: GET http://localhost:8080/web-mobile/timTheoHangSanPham?hang=Sony POSTDATA= Click Delay=5
+23-Oct-17 1:52:12 PM:   URL#4: GET http://localhost:8080/web-mobile/timTheoGiaSanPhamServlet?options=1 POSTDATA= Click Delay=5
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: ** Browser Settings **
+23-Oct-17 1:52:12 PM: Browser Simulation: 
+23-Oct-17 1:52:12 PM:   User Agent: Mozilla/5.0 (compatible; Webserver Stress Tool 8; Windows)
+23-Oct-17 1:52:12 PM:   HTTP Request Timeout: 120 s
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: Recursive Browsing / HTML Parsing: 
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: ** Options **
+23-Oct-17 1:52:12 PM: Advanced Settings: 
+23-Oct-17 1:52:12 PM: Logging:
+23-Oct-17 1:52:12 PM:   Write detailed log(s)
+23-Oct-17 1:52:12 PM: Timer: not enabled
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: Local IPs: Automatic
+23-Oct-17 1:52:12 PM: Advanced Data Merging Features:
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: ** Client System **
+23-Oct-17 1:52:12 PM:   Windows 8/2012 V6.2 (Build 9200) , CPU Proc. Lev. 686 (Rev. 15363) at 2,594 MHz, 
+23-Oct-17 1:52:12 PM:   10982 MB available RAM of 16272 MB total physical RAM, 10642 MB available pagefile
+23-Oct-17 1:52:12 PM:  
+23-Oct-17 1:52:12 PM: Test is starting
+23-Oct-17 1:52:12 PM: ----------------------------------------------------
+23-Oct-17 1:52:12 PM: Creating Users...
+23-Oct-17 1:52:12 PM: Pre-Requesting URLs once... (for DNS/DLL/SYSTEM initialization)
+23-Oct-17 1:52:12 PM:    Pre-Requesting: HEAD Request to URL #1
+23-Oct-17 1:52:12 PM:    Pre-Requesting: HEAD Request to URL #2
+23-Oct-17 1:52:12 PM:    Pre-Requesting: HEAD Request to URL #3
+23-Oct-17 1:52:12 PM:    Pre-Requesting: HEAD Request to URL #4
+23-Oct-17 1:52:12 PM: Pre-Requests done
+23-Oct-17 1:52:12 PM: Test preparations done
+23-Oct-17 1:52:12 PM: 
+23-Oct-17 1:52:12 PM: Master Controller will start now...
+23-Oct-17 1:52:12 PM: Switching to 100 users.
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Results of period #1 (from 1 sec to 11 sec ):
+23-Oct-17 1:52:23 PM: ****************************************************************
+23-Oct-17 1:52:23 PM: Analyzed Time span of this period: 10,225 msec
+23-Oct-17 1:52:23 PM: Sent/Received Requests: 199 / 198 (=0.50% not answered in this period)
+23-Oct-17 1:52:23 PM: Completed Hits: 198 (including images, frames etc.)
+23-Oct-17 1:52:23 PM: Completed Clicks: 198 with 0 Errors (=0.00%)
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Results for Images for this period:
+23-Oct-17 1:52:23 PM: Image Hits: 0 with 0 Errors
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Spectrum of Click Times
+23-Oct-17 1:52:23 PM: 21.72% of All Users waited <100ms
+23-Oct-17 1:52:23 PM: 33.33% of All Users waited <200ms
+23-Oct-17 1:52:23 PM: 23.74% of All Users waited <500ms
+23-Oct-17 1:52:23 PM: 19.70% of All Users waited <1s
+23-Oct-17 1:52:23 PM: 1.52% of All Users waited <2s
+23-Oct-17 1:52:23 PM: 0.00% of All Users waited <5s
+23-Oct-17 1:52:23 PM: 0.00% of All Users waited <10s
+23-Oct-17 1:52:23 PM: 0.00% of All Users waited <20s
+23-Oct-17 1:52:23 PM: 0.00% of All Users waited <50s
+23-Oct-17 1:52:23 PM: 0.00% of All Users waited <100s
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Measured Times:
+23-Oct-17 1:52:23 PM: Average Time to Create Local Socket for 100 Users: 73 ms 
+23-Oct-17 1:52:23 PM: Average DNS Time for 100 Users: 0 ms 
+23-Oct-17 1:52:23 PM: Average Time to Connect for 100 Users: 1 ms 
+23-Oct-17 1:52:23 PM: Average Time to First Byte for 100 Users: 291 ms 
+23-Oct-17 1:52:23 PM: Average Click Time for 100 Users: 295 ms 
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Hits per Second: 19.36 (equals 69,709.63 Hits per Hour)
+23-Oct-17 1:52:23 PM: Successful clicks per Second: 19.36 (equals 69,709.63 Clicks per Hour)
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Results per URL for this Period:
+23-Oct-17 1:52:23 PM: URL#1 (Home): Average Click Time 375 ms, 50 Clicks, 0 Errors, 
+23-Oct-17 1:52:23 PM: URL#2 (Tim theo hang): Average Click Time 269 ms, 50 Clicks, 0 Errors, 
+23-Oct-17 1:52:23 PM: URL#3 (Tim theo hang): Average Click Time 266 ms, 50 Clicks, 0 Errors, 
+23-Oct-17 1:52:23 PM: URL#4 (Tim theo gia): Average Click Time 267 ms, 48 Clicks, 0 Errors, 
+23-Oct-17 1:52:23 PM: Average Click Time of all URLs: 295 ms 
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Resulting page statuscodes for this period:
+23-Oct-17 1:52:23 PM: 198x "200" (=OK)
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: Datavolume and Bandwidth for this period:
+23-Oct-17 1:52:23 PM: Average User Bandwidth: 1,664.37 kbit/s 
+23-Oct-17 1:52:23 PM: Total Bytes: 6,344,504 Bytes (6,345 kByte) (Throughput ~4,964 kbit/sec)
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:23 PM: 
+23-Oct-17 1:52:26 PM: ****************************
+23-Oct-17 1:52:26 PM: *** TEST ABORTED BY USER ***
+23-Oct-17 1:52:26 PM: ****************************
+23-Oct-17 1:52:26 PM: 
+23-Oct-17 1:52:26 PM: 
+23-Oct-17 1:52:26 PM: *******************************************************************
+23-Oct-17 1:52:26 PM: Test Done, now waiting for simulated users to stop surfing 
+23-Oct-17 1:52:26 PM: *******************************************************************
+23-Oct-17 1:52:26 PM: Waiting for 5 seconds for users to cool down and stop surfing...
+23-Oct-17 1:52:41 PM: More than 0 seconds since end of test. Killing left over requests.
+23-Oct-17 1:52:41 PM: User #1: Killing User
+23-Oct-17 1:52:41 PM: All surfers passed away...
+23-Oct-17 1:52:41 PM: Master Controller is halted
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: Results of complete test
+23-Oct-17 1:52:42 PM: ****************************************************************
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: ** Results per User for complete test **
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: User #1: Avg. Click Time: 335.88 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 921.36 kbit/s
+23-Oct-17 1:52:42 PM: User #2: Avg. Click Time: 245.08 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 869.64 kbit/s
+23-Oct-17 1:52:42 PM: User #3: Avg. Click Time: 238.10 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 863.09 kbit/s
+23-Oct-17 1:52:42 PM: User #4: Avg. Click Time: 243.07 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,230.03 kbit/s
+23-Oct-17 1:52:42 PM: User #5: Avg. Click Time: 332.49 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 930.76 kbit/s
+23-Oct-17 1:52:42 PM: User #6: Avg. Click Time: 242.10 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 880.33 kbit/s
+23-Oct-17 1:52:42 PM: User #7: Avg. Click Time: 242.27 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 848.25 kbit/s
+23-Oct-17 1:52:42 PM: User #8: 1 Clicks, 1 Hits, 0 Errors, 0 Bytes, 
+23-Oct-17 1:52:42 PM: User #9: Avg. Click Time: 374.41 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 826.53 kbit/s
+23-Oct-17 1:52:42 PM: User #10: Avg. Click Time: 263.01 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 810.34 kbit/s
+23-Oct-17 1:52:42 PM: User #11: Avg. Click Time: 262.95 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 781.53 kbit/s
+23-Oct-17 1:52:42 PM: User #12: Avg. Click Time: 262.66 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,138.29 kbit/s
+23-Oct-17 1:52:42 PM: User #13: Avg. Click Time: 373.10 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 829.44 kbit/s
+23-Oct-17 1:52:42 PM: User #14: Avg. Click Time: 260.98 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 816.65 kbit/s
+23-Oct-17 1:52:42 PM: User #15: Avg. Click Time: 287.77 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 714.13 kbit/s
+23-Oct-17 1:52:42 PM: User #16: Avg. Click Time: 264.10 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,132.10 kbit/s
+23-Oct-17 1:52:42 PM: User #17: Avg. Click Time: 398.98 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 775.64 kbit/s
+23-Oct-17 1:52:42 PM: User #18: Avg. Click Time: 284.96 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 747.92 kbit/s
+23-Oct-17 1:52:42 PM: User #19: Avg. Click Time: 289.15 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 710.72 kbit/s
+23-Oct-17 1:52:42 PM: User #20: Avg. Click Time: 290.70 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,028.50 kbit/s
+23-Oct-17 1:52:42 PM: User #21: Avg. Click Time: 412.73 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 749.80 kbit/s
+23-Oct-17 1:52:42 PM: User #22: Avg. Click Time: 292.56 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 728.50 kbit/s
+23-Oct-17 1:52:42 PM: User #23: Avg. Click Time: 310.94 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 660.91 kbit/s
+23-Oct-17 1:52:42 PM: User #24: Avg. Click Time: 298.15 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,002.80 kbit/s
+23-Oct-17 1:52:42 PM: User #25: Avg. Click Time: 439.23 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 704.56 kbit/s
+23-Oct-17 1:52:42 PM: User #26: Avg. Click Time: 337.17 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 632.11 kbit/s
+23-Oct-17 1:52:42 PM: User #27: Avg. Click Time: 308.26 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 666.66 kbit/s
+23-Oct-17 1:52:42 PM: User #28: Avg. Click Time: 338.88 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 882.28 kbit/s
+23-Oct-17 1:52:42 PM: User #29: Avg. Click Time: 452.44 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 683.99 kbit/s
+23-Oct-17 1:52:42 PM: User #30: Avg. Click Time: 322.74 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 660.37 kbit/s
+23-Oct-17 1:52:42 PM: User #31: Avg. Click Time: 364.81 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 563.32 kbit/s
+23-Oct-17 1:52:42 PM: User #32: Avg. Click Time: 336.04 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 889.73 kbit/s
+23-Oct-17 1:52:42 PM: User #33: Avg. Click Time: 481.95 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 642.10 kbit/s
+23-Oct-17 1:52:42 PM: User #34: Avg. Click Time: 347.39 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 613.51 kbit/s
+23-Oct-17 1:52:42 PM: User #35: Avg. Click Time: 347.67 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 591.08 kbit/s
+23-Oct-17 1:52:42 PM: User #36: Avg. Click Time: 377.23 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 792.58 kbit/s
+23-Oct-17 1:52:42 PM: User #37: Avg. Click Time: 493.68 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 626.85 kbit/s
+23-Oct-17 1:52:42 PM: User #38: Avg. Click Time: 375.25 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 567.96 kbit/s
+23-Oct-17 1:52:42 PM: User #39: Avg. Click Time: 373.41 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 550.35 kbit/s
+23-Oct-17 1:52:42 PM: User #40: Avg. Click Time: 387.70 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 771.18 kbit/s
+23-Oct-17 1:52:42 PM: User #41: Avg. Click Time: 494.63 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 625.64 kbit/s
+23-Oct-17 1:52:42 PM: User #42: Avg. Click Time: 387.99 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 549.32 kbit/s
+23-Oct-17 1:52:42 PM: User #43: Avg. Click Time: 399.53 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 514.36 kbit/s
+23-Oct-17 1:52:42 PM: User #44: Avg. Click Time: 414.65 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 721.04 kbit/s
+23-Oct-17 1:52:42 PM: User #45: Avg. Click Time: 513.03 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 603.20 kbit/s
+23-Oct-17 1:52:42 PM: User #46: Avg. Click Time: 400.82 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 531.73 kbit/s
+23-Oct-17 1:52:42 PM: User #47: Avg. Click Time: 430.40 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 477.47 kbit/s
+23-Oct-17 1:52:42 PM: User #48: Avg. Click Time: 412.43 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 724.93 kbit/s
+23-Oct-17 1:52:42 PM: User #49: Avg. Click Time: 521.20 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 593.76 kbit/s
+23-Oct-17 1:52:42 PM: User #50: Avg. Click Time: 413.10 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 515.93 kbit/s
+23-Oct-17 1:52:42 PM: User #51: Avg. Click Time: 441.52 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 465.45 kbit/s
+23-Oct-17 1:52:42 PM: User #52: Avg. Click Time: 439.02 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 681.02 kbit/s
+23-Oct-17 1:52:42 PM: User #53: Avg. Click Time: 530.10 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 583.78 kbit/s
+23-Oct-17 1:52:42 PM: User #54: Avg. Click Time: 425.38 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 501.03 kbit/s
+23-Oct-17 1:52:42 PM: User #55: Avg. Click Time: 405.59 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 506.68 kbit/s
+23-Oct-17 1:52:42 PM: User #56: Avg. Click Time: 384.94 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 776.70 kbit/s
+23-Oct-17 1:52:42 PM: User #57: Avg. Click Time: 428.42 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 722.34 kbit/s
+23-Oct-17 1:52:42 PM: User #58: Avg. Click Time: 316.02 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 674.41 kbit/s
+23-Oct-17 1:52:42 PM: User #59: Avg. Click Time: 306.36 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 670.80 kbit/s
+23-Oct-17 1:52:42 PM: User #60: Avg. Click Time: 274.72 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,088.32 kbit/s
+23-Oct-17 1:52:42 PM: User #61: Avg. Click Time: 296.74 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 1,042.89 kbit/s
+23-Oct-17 1:52:42 PM: User #62: Avg. Click Time: 215.77 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 987.74 kbit/s
+23-Oct-17 1:52:42 PM: User #63: Avg. Click Time: 176.51 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 1,164.29 kbit/s
+23-Oct-17 1:52:42 PM: User #64: Avg. Click Time: 159.90 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 1,869.84 kbit/s
+23-Oct-17 1:52:42 PM: User #65: Avg. Click Time: 169.07 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 1,830.40 kbit/s
+23-Oct-17 1:52:42 PM: User #66: Avg. Click Time: 99.48 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 2,142.40 kbit/s
+23-Oct-17 1:52:42 PM: User #67: Avg. Click Time: 91.67 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 2,241.83 kbit/s
+23-Oct-17 1:52:42 PM: User #68: Avg. Click Time: 72.69 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 4,112.92 kbit/s
+23-Oct-17 1:52:42 PM: User #69: Avg. Click Time: 218.92 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 1,413.59 kbit/s
+23-Oct-17 1:52:42 PM: User #70: Avg. Click Time: 127.69 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 1,669.10 kbit/s
+23-Oct-17 1:52:42 PM: User #71: Avg. Click Time: 108.02 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 1,902.38 kbit/s
+23-Oct-17 1:52:42 PM: User #72: Avg. Click Time: 97.76 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 3,058.46 kbit/s
+23-Oct-17 1:52:42 PM: User #73: Avg. Click Time: 233.90 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 1,323.05 kbit/s
+23-Oct-17 1:52:42 PM: User #74: Avg. Click Time: 117.17 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 1,818.91 kbit/s
+23-Oct-17 1:52:42 PM: User #75: Avg. Click Time: 107.08 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 1,919.13 kbit/s
+23-Oct-17 1:52:42 PM: User #76: Avg. Click Time: 113.05 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 2,644.62 kbit/s
+23-Oct-17 1:52:42 PM: User #77: Avg. Click Time: 189.25 ms, 4 Clicks, 3 Hits, 0 Errors, 116,049 Bytes, 1,635.20 kbit/s
+23-Oct-17 1:52:42 PM: User #78: Avg. Click Time: 109.17 ms, 4 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 1,952.24 kbit/s
+23-Oct-17 1:52:42 PM: User #79: Avg. Click Time: 99.30 ms, 4 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 2,069.61 kbit/s
+23-Oct-17 1:52:42 PM: User #80: Avg. Click Time: 76.35 ms, 4 Clicks, 3 Hits, 0 Errors, 112,119 Bytes, 3,915.99 kbit/s
+23-Oct-17 1:52:42 PM: User #81: Avg. Click Time: 218.21 ms, 3 Clicks, 2 Hits, 0 Errors, 77,366 Bytes, 1,418.20 kbit/s
+23-Oct-17 1:52:42 PM: User #82: Avg. Click Time: 105.55 ms, 3 Clicks, 3 Hits, 0 Errors, 79,923 Bytes, 2,019.25 kbit/s
+23-Oct-17 1:52:42 PM: User #83: Avg. Click Time: 84.88 ms, 3 Clicks, 3 Hits, 0 Errors, 77,064 Bytes, 2,421.11 kbit/s
+23-Oct-17 1:52:42 PM: User #84: Avg. Click Time: 93.14 ms, 3 Clicks, 2 Hits, 0 Errors, 74,746 Bytes, 3,210.19 kbit/s
+23-Oct-17 1:52:42 PM: User #85: Avg. Click Time: 205.77 ms, 3 Clicks, 2 Hits, 0 Errors, 77,366 Bytes, 1,503.97 kbit/s
+23-Oct-17 1:52:42 PM: User #86: Avg. Click Time: 124.98 ms, 3 Clicks, 2 Hits, 0 Errors, 53,282 Bytes, 1,705.27 kbit/s
+23-Oct-17 1:52:42 PM: User #87: Avg. Click Time: 90.73 ms, 3 Clicks, 2 Hits, 0 Errors, 51,376 Bytes, 2,265.04 kbit/s
+23-Oct-17 1:52:42 PM: User #88: Avg. Click Time: 56.08 ms, 3 Clicks, 2 Hits, 0 Errors, 74,746 Bytes, 5,331.86 kbit/s
+23-Oct-17 1:52:42 PM: User #89: Avg. Click Time: 79.58 ms, 3 Clicks, 2 Hits, 0 Errors, 77,366 Bytes, 3,888.56 kbit/s
+23-Oct-17 1:52:42 PM: User #90: Avg. Click Time: 77.11 ms, 3 Clicks, 2 Hits, 0 Errors, 53,282 Bytes, 2,763.89 kbit/s
+23-Oct-17 1:52:42 PM: User #91: Avg. Click Time: 48.82 ms, 3 Clicks, 2 Hits, 0 Errors, 51,376 Bytes, 4,209.46 kbit/s
+23-Oct-17 1:52:42 PM: User #92: Avg. Click Time: 81.83 ms, 3 Clicks, 2 Hits, 0 Errors, 74,746 Bytes, 3,653.63 kbit/s
+23-Oct-17 1:52:42 PM: User #93: Avg. Click Time: 166.70 ms, 3 Clicks, 2 Hits, 0 Errors, 77,366 Bytes, 1,856.44 kbit/s
+23-Oct-17 1:52:42 PM: User #94: Avg. Click Time: 87.92 ms, 3 Clicks, 2 Hits, 0 Errors, 53,282 Bytes, 2,424.05 kbit/s
+23-Oct-17 1:52:42 PM: User #95: Avg. Click Time: 96.52 ms, 3 Clicks, 2 Hits, 0 Errors, 51,376 Bytes, 2,129.05 kbit/s
+23-Oct-17 1:52:42 PM: User #96: Avg. Click Time: 75.40 ms, 3 Clicks, 2 Hits, 0 Errors, 74,746 Bytes, 3,965.44 kbit/s
+23-Oct-17 1:52:42 PM: User #97: Avg. Click Time: 116.80 ms, 3 Clicks, 2 Hits, 0 Errors, 77,366 Bytes, 2,649.49 kbit/s
+23-Oct-17 1:52:42 PM: User #98: Avg. Click Time: 64.49 ms, 3 Clicks, 2 Hits, 0 Errors, 53,282 Bytes, 3,304.97 kbit/s
+23-Oct-17 1:52:42 PM: User #99: Avg. Click Time: 89.77 ms, 3 Clicks, 2 Hits, 0 Errors, 51,376 Bytes, 2,289.25 kbit/s
+23-Oct-17 1:52:42 PM: User #100: Avg. Click Time: 96.19 ms, 3 Clicks, 2 Hits, 0 Errors, 74,746 Bytes, 3,108.21 kbit/s
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: ** Results per URL for complete test **
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: URL#1 (Home): Average Click Time 375 ms, 50 Clicks, 0 Errors 
+23-Oct-17 1:52:42 PM: URL#2 (Tim theo hang): Average Click Time 269 ms, 50 Clicks, 0 Errors 
+23-Oct-17 1:52:42 PM: URL#3 (Tim theo hang): Average Click Time 266 ms, 50 Clicks, 0 Errors 
+23-Oct-17 1:52:42 PM: URL#4 (Tim theo gia): Average Click Time 267 ms, 48 Clicks, 0 Errors 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: Total Number of Clicks: 198 (0 Errors)
+23-Oct-17 1:52:42 PM: Average Click Time of all URLs: 295 ms 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: !! Glossary:
+23-Oct-17 1:52:42 PM: !! Click: A simulated mouse click of a user sending a request (one of the URLs from the URL list) to the server and immediately requesting any necessary redirects, frames and images (if enabled).
+23-Oct-17 1:52:42 PM: !! Request: A HTTP request sent to the server regardless of an answer.
+23-Oct-17 1:52:42 PM: !! Hit: A completed HTTP request (i.e. sent to the server and answered completely). Hits can be the PAGE request of a "click" or its frames, images etc.
+23-Oct-17 1:52:42 PM: !! Time for DNS: Time to resolve a URL's domain name using the client system's current DNS server.
+23-Oct-17 1:52:42 PM: !! Time to connect: Time to set up a connection to the server.
+23-Oct-17 1:52:42 PM: !! Time to first byte (TFB): Time between initiating a request and receiving the first byte of data from the server.
+23-Oct-17 1:52:42 PM: !! Click Time: The time a user had to wait until his "click" was finished (including redirections/frames/images etc.).
+23-Oct-17 1:52:42 PM: !! User Bandwidth: The bandwidth a user was able to achieve.
+23-Oct-17 1:52:42 PM: !! Sent Requests: Number of requests sent to the server during a period.
+23-Oct-17 1:52:42 PM: !! Received Requests: Number of answers received from the server during a period.
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: 
+23-Oct-17 1:52:42 PM: Saving summary log to "F:\Webserver Stress Tool 8\logs\Summary Log.txt"
+23-Oct-17 1:52:42 PM: Saving detailed log to "F:\Webserver Stress Tool 8\logs\Detailed Log.txt"
+23-Oct-17 1:52:42 PM: Saving Chart Data: Spectrum of Click Times-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Server and User Bandwidth-Server Bandwidth _kbit_s_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Server and User Bandwidth-Avg_ User Bandwidth _kbit_s_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Server and User Bandwidth-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Hierarchy and Times of All Hits-Pages.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Hierarchy and Times of All Hits-Images.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Hierarchy and Times of All Hits-Frames.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Hierarchy and Times of All Hits-Errors.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Hierarchy and Times of All Hits-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ Home.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ Tim theo .csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ Tim theo .csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ Tim theo .csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ All Images.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ Home.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ Tim theo han.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ Tim theo han.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ Tim theo gia.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ All Images.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Click Time _ms_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Clicks per Second.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Hits per Second.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Open Requests _ Transferred Data-Open Requests.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Open Requests _ Transferred Data-Sent Requests per second.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Open Requests _ Transferred Data-Received Requests per second.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Open Requests _ Transferred Data-Network Traffic _kbit_s_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Open Requests _ Transferred Data-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-Click Time.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-Time to First Byte.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-Time to Connect.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-Time for DNS.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-Time for local socket.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Protocol Times for all URLs-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-System Memory _MB_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Network Traffic _kbit_s_.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Local CPU Load ___.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-.csv
+23-Oct-17 1:52:42 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Local CPU Load ___.csv

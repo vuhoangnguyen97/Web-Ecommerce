@@ -1,0 +1,112 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.top{
+    height: 130px;
+    width: 100%;
+    background-color: #00cec9;
+}
+
+#logo{
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+#logo h3{
+    color: white;
+    font-size: 40px;
+}
+
+#nameNV{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+    font-weight: bold;
+}
+ #nameNV p{
+     float: left;
+     padding-right: 15px;
+     color: white;
+     
+ }
+
+.dangxuat{
+    margin-top: 15px;
+    float: left;
+}
+
+ .logout{
+     background: url(images/logout.png) no-repeat;
+     text-decoration: none;
+     color: white;
+     padding-left: 20px;
+ }
+
+ .logout a:hover,  .logout a:visited{
+     color: white;
+ }
+
+ .tensp{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ .table{
+    margin: 0 auto;
+}
+
+.table tr th{
+    padding-bottom: 20px;
+}
+
+.table tr td{
+    padding-bottom: 20px;
+}
+
+.txtsp{
+    padding: 10px 50px 10px 8px;
+    
+}
+
+#btfix{
+    float: left;
+    border: none;
+    border-radius: 7px;
+    background-color: #00cec9;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#btsave{
+    float: left;
+    border: none;
+    border-radius: 7px;
+    background-color: #E94335;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    display: none;
+}
+
+#fix{
+    margin-left: 110px;
+}

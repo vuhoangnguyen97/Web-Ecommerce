@@ -1,0 +1,3 @@
+Sau khi kiểm Load Test, CSDL chịu tải ở mức khoảng 200 users khi truy cập dữ liệu và thao tác thực thi trên đó. 
+-----
+Sau khi kiểm tra lại mã nguồn thì đã khắc phục được, khả năng chịu tải sau khi test Load Test rơi vào khoảng 1000user, nhưng vẫn có error ở một vài user, tỉ lệ error rơi vào khoảng 5% đến 10%

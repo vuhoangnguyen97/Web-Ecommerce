@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chi Tiết Nhân Viên</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CTNV.css" />
+    <script src="CTNV.js"></script>
+</head>
+<body>
+        <div class="top">
+                <div class="container">
+                    <div id="logo">
+                        <h3>Chi Tiết Sản Phẩm</h3>
+                    </div>
+        
+                    <div id="nameNV"> 
+                        <p>Xin chào </p>
+                        <!--Tên nhân viên lấy từ CSDL-->
+                        <p>Admin</p>
+                        <div class="dangxuat">
+                            <a href="#" class="logout">Đăng xuất</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="hinhanh">
+                <div class="container">
+                    <div class="hinhsp">
+                        
+                        <!--Hình sản phẩm-->
+                        <img src="images\ip7plus.png" class="kichthuoc">
+                    </div>
+                </div>
+        </div>
+
+        <div class="main">
+                <div class="container">
+                    <div class="thongtin">
+                        <form action="#" method="POST" class="fMain">
+                            <div class="tensp">
+                                <p>NAME</p>
+                            </div>
+        
+                            <!--Bảng thông tin chi tiết-->
+                            <table class="table">
+                                <tr>
+                                    <th>Mã nhân viên:</th>
+                                    <td>
+                                        <input type="text" name="txtMaNhanVien" class="txtsp" id="txtsp" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Username:</th>
+                                    <td>
+                                        <input type="text" name="txtusername" class="txtsp" id="txtsp1" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Password:</th>
+                                    <td>
+                                        <input type="password" name="txtpassword" class="txtsp" id="txtsp2" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Họ:</th>
+                                    <td>
+                                        <input type="text" name="txtHoNhanVien" class="txtsp" id="txtsp3" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Tên:</th>
+                                    <td>
+                                        <input type="text" name="txtTenNhanVien" class="txtsp" id="txtsp4" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Chức vụ:</th>
+                                    <td>
+                                        <select class="fchucvu" name="txtMaChucVu">
+	                                        	<!-- admin -->
+	                                         	<c:if test="${sessionScope.staff.ma_chuc_vu==1}">
+		                                         	<option value="1" >Admin</option>
+		                                            <option value="2" >Nhân Viên</option>
+		                                            <option value="3" >Moderator</option>
+	                                         	</c:if>
+	                                         	<!-- mod -->
+	                                         	<c:if test="${sessionScope.staff.ma_chuc_vu==3}">		                                         	
+		                                            <option value="2" >Nhân Viên</option>
+	                                         	</c:if>
+	                                    </select>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Email:</th>
+                                    <td>
+                                        <input type="text" name="txtEmail" class="txtsp" id="txtsp6" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <th>Số điện thoại:</th>
+                                    <td>
+                                        <input type="text" name="txtsdt" class="txtsp" id="txtsp7" value="" disabled>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <td colspan="2">
+                                        <form action="#" method="POST" id="fix">
+                                            <!--<input type="button" value="Edit" id="btfix" onclick="bt1(); bt();">-->
+                                            <input type="button" value="Edit" id="btfix" onclick="show()">
+                                            <!--<input type="button" value="Save" id="btsave" onclick="luu(); luu2();">-->
+                                            <input type="button" value="Save" id="btsave" onclick="show1()">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+        
+                            <!--Popup Sửa đi trước-->
+                            <div id="myModal" class="modal">
+                                <div class="modal-content">
+                                    <form action="#" method="POST" id="ask1">
+                                            <span class="close1" onclick="dong()">&times;</span>
+                                            <table id="alert">
+                                                <tr>
+                                                    <th colspan="2">Bạn có muốn sửa sản phẩm không?</th>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td>
+                                                        <input type="button" value="Có" id="yes" class="btask" onclick="bt1(); bt();">
+                                                    </td>
+                
+                                                    <td>
+                                                        <input type="button" value="Không" id="no" class="btask" onclick="dong()">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                    </form>
+                                </div>
+                            </div>
+        
+                            <!--Popup lưu đi sau-->
+                            <div id="myModal1" class="modal">
+                                <div class="modal-content">
+                                    <form action="#" method="POST" id="ask2">
+                                        <span class="close1" onclick="dong()">&times;</span>
+                                        <table id="alert1">
+                                                <tr>
+                                                        <th colspan="2">Bạn có muốn lưu không?</th>
+                                                    </tr>
+                    
+                                                    <tr>
+                                                        <td>
+                                                            <input type="button" value="Có" id="yes" class="btask" onclick="bt1(); luu(); luu2(); dong1();">
+                                                        </td>
+                    
+                                                        <td>
+                                                            <input type="button" value="Không" id="no" class="btask" onclick="dong1()">
+                                                        </td>
+                                                    </tr>
+                                        </table>
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+           
+                </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+Webserver Stress Tool - Logfile for User #25
+23-Oct-17 1:52:13 PM: User #25 Click #1: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:13 PM: User #25 Click #1: HTTP request & TCP/IP socket creation: 268 ms
+23-Oct-17 1:52:13 PM: User #25 Click #1: ** Click #1 started, used URL #1 (Home), from IP=0.0.0.0
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Initialized (0 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: DNS Lookup begin (0 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: DNS Lookup done (0 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Connected (1 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Waiting for header (1 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Receiving Header (677 ms) (=Time to First Byte)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Waiting for body (677 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: Request 1 HTTP State: Done (679 ms)
+23-Oct-17 1:52:13 PM: User #25 Click #1: CLICK-Request 1: Time=679 ms, TFB=677 ms, Bytes=38,683, HTTP-StatusCode=200 (OK)
+23-Oct-17 1:52:13 PM: User #25 Click #1: !Success! All requests of click done (680 ms)  
+23-Oct-17 1:52:14 PM: User #25 Click #2: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:19 PM: User #25 Click #2: HTTP request & TCP/IP socket creation: 2 ms
+23-Oct-17 1:52:19 PM: User #25 Click #2: ** Click #2 started, used URL #1 (Home), from IP=0.0.0.0
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Initialized (0 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: DNS Lookup begin (0 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: DNS Lookup done (0 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Connected (1 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Waiting for header (1 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Receiving Header (258 ms) (=Time to First Byte)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Waiting for body (258 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: Request 2 HTTP State: Done (259 ms)
+23-Oct-17 1:52:19 PM: User #25 Click #2: CLICK-Request 2: Time=259 ms, TFB=258 ms, Bytes=38,683, HTTP-StatusCode=200 (OK)
+23-Oct-17 1:52:19 PM: User #25 Click #2: !Success! All requests of click done (259 ms)  
+23-Oct-17 1:52:19 PM: User #25 Click #3: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:24 PM: User #25 Click #3: HTTP request & TCP/IP socket creation: 3 ms
+23-Oct-17 1:52:24 PM: User #25 Click #3: ** Click #3 started, used URL #1 (Home), from IP=0.0.0.0
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Initialized (0 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: DNS Lookup begin (0 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: DNS Lookup done (0 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Connected (1 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Waiting for header (1 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Receiving Header (379 ms) (=Time to First Byte)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Waiting for body (379 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: Request 3 HTTP State: Done (379 ms)
+23-Oct-17 1:52:24 PM: User #25 Click #3: CLICK-Request 3: Time=379 ms, TFB=379 ms, Bytes=38,683, HTTP-StatusCode=200 (OK)
+23-Oct-17 1:52:24 PM: User #25 Click #3: !Success! All requests of click done (379 ms)  
+23-Oct-17 1:52:24 PM: User #25 Click #4: Waiting for click delay (per URL): 5s
+23-Oct-17 1:52:27 PM: Writing User Log
+23-Oct-17 1:52:28 PM: User passed away

@@ -1,0 +1,45 @@
+** Test Logfile by Webserver Stress Tool 8.0.0.1010 Enterprise Edition (Freeware) **
+© 1998-2012 Paessler AG, http://www.paessler.com
+ 
+Test run on 23-Oct-17 1:52:12 PM
+
+** Project and Scenario Comments, Operator **
+
+
+
+Results of period #1 (from 1 sec to 11 sec ):
+****************************************************************
+Completed Clicks: 198 with 0 Errors (=0.00%)
+Average Click Time for 100 Users: 295 ms 
+Successful clicks per Second: 19.36 (equals 69,709.63 Clicks per Hour)
+****************************
+*** TEST ABORTED BY USER ***
+****************************
+
+Results of complete test
+****************************************************************
+
+** Results per URL for complete test **
+
+URL#1 (Home): Average Click Time 375 ms, 50 Clicks, 0 Errors 
+URL#2 (Tim theo hang): Average Click Time 269 ms, 50 Clicks, 0 Errors 
+URL#3 (Tim theo hang): Average Click Time 266 ms, 50 Clicks, 0 Errors 
+URL#4 (Tim theo gia): Average Click Time 267 ms, 48 Clicks, 0 Errors 
+
+Total Number of Clicks: 198 (0 Errors)
+Average Click Time of all URLs: 295 ms 
+
+
+!! Glossary:
+!! Click: A simulated mouse click of a user sending a request (one of the URLs from the URL list) to the server and immediately requesting any necessary redirects, frames and images (if enabled).
+!! Request: A HTTP request sent to the server regardless of an answer.
+!! Hit: A completed HTTP request (i.e. sent to the server and answered completely). Hits can be the PAGE request of a "click" or its frames, images etc.
+!! Time for DNS: Time to resolve a URL's domain name using the client system's current DNS server.
+!! Time to connect: Time to set up a connection to the server.
+!! Time to first byte (TFB): Time between initiating a request and receiving the first byte of data from the server.
+!! Click Time: The time a user had to wait until his "click" was finished (including redirections/frames/images etc.).
+!! User Bandwidth: The bandwidth a user was able to achieve.
+!! Sent Requests: Number of requests sent to the server during a period.
+!! Received Requests: Number of answers received from the server during a period.
+
+

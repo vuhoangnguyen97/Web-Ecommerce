@@ -1,0 +1,2 @@
+﻿nếu xài GlassFish Server thì không cần thêm thư viện JSTL vì trong Server đã có sẵn.
+Còn nếu xài Tomcat Server thì cần thêm bộ thư viện này.
