@@ -11,8 +11,8 @@ https://github.com/vuhoangnguyen97/Mobile-Ecommerce
 * Một số kỹ thuật mã hóa thông tin <br/>
 
 <h3> Các phần mềm sử dụng: </h3>
-* IDE: Eclipse Oxygen EE, MySQL Workbench
-* Server: Apache for MySQL, Glassfish 4 for Web Server.
+* IDE: Eclipse Oxygen EE, MySQL Workbench <br/>
+* Server: Apache for MySQL, Glassfish 4 for Web Server.<br/>
 * Testing Tools: JMeter, Kali Linux for testing Database, Stress Testing, Performance,etc.
 
 
